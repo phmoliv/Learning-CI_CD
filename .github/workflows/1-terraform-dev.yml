@@ -3,7 +3,7 @@ name: "FirstStep: Build in Dev environment"
 on:
   push:
     paths:
-      - 'infra/dev/**'
+      - 'envs/dev/**'
     branches:
       - 'feature**'
       - 'fix**'
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: infra/dev
+        working-directory: envs/dev
 
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
