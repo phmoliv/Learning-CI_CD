@@ -1,4 +1,4 @@
-name: "FirstStep: Build in Dev environment"
+name: "Building Dev Environment"
 
 on:
   push:
