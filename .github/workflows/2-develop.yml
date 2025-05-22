@@ -1,6 +1,0 @@
-name: "Build & Deploy"
-
-on:
-  pull_request:
-    types: closed
-    branches: develop
