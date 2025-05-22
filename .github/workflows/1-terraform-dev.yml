@@ -1,4 +1,4 @@
-name: "FirstStep: Build & PR" # Pull Request para a Develop
+name: "FirstStep: Build in Dev environment"
 
 on:
   push:
