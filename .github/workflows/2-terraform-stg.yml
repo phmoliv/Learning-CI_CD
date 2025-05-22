@@ -8,14 +8,14 @@ on:
     types:
       - closed  
     paths:
-      - 'infra/staging/**'
+      - 'envs/stg/**'
 
 jobs:
   staging-plan:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: infra/staging
+        working-directory: envs/stg
 
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
