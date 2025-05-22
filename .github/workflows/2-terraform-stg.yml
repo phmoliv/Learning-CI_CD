@@ -1,4 +1,4 @@
-name: "Build & Deploy in Staging"
+name: "Building Staging Environment"
 
 on:
   pull_request:
