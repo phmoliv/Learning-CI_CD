@@ -1,4 +1,4 @@
-name: "Building Dev Environment"
+name: "Building Develop Environment"
 
 on:
   push:
